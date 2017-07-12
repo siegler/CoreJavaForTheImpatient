@@ -1,5 +1,7 @@
 package Ch4;
-
+/*
+Define toString, equals, and hashCode methods for the classes of the preceding exercise.
+ */
 public class Ex2 {
     public static void main(String[] args) {
         LabeledPoint point1 = new LabeledPoint("One", 3, 9);
