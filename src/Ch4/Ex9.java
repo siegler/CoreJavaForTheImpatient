@@ -1,7 +1,5 @@
 package Ch4;
 
-import com.sun.org.apache.xpath.internal.operations.Mod;
-
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
@@ -9,7 +7,7 @@ class Foo {
     private String s;
     protected int i;
     public boolean b;
-    static int staticInt;
+    static int staticInt = 44;
 
     Foo(String s, int i, boolean b) {
         this.s = s;
@@ -20,7 +18,7 @@ class Foo {
 public class Ex9 {
     public static String toString(Object obj) {
         StringBuffer sb = new StringBuffer();
-
+        String newline = "";
         for (Field f: obj.getClass().getDeclaredFields()) {
             int mod = f.getModifiers();
             if (Modifier.isStatic(mod)) {
@@ -29,10 +27,11 @@ public class Ex9 {
             f.setAccessible(true);
             try {
                 Object value = f.get(obj);
-                sb.append(Modifier.toString(mod) + " " + f.getType().getSimpleName() + " " + f.getName() + ":" + value + "\n");
+                sb.append(newline + Modifier.toString(mod) + " " + f.getType().getSimpleName() + " " + f.getName() + ":" + value);
             } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }
+            newline = "\n";
         }
         return sb.toString();
     }
