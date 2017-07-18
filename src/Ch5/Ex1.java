@@ -10,7 +10,7 @@ public class Ex1 {
         ArrayList<Double> result = new ArrayList<>();
         File file = new File(filename);
         if (!file.exists()) {
-            throw new FileNotFoundException(String.format("File not found: %s", filename));
+            throw new FileNotFoundException(filename);
         }
         Scanner scanner = new Scanner(file);
         String s = "";
@@ -21,7 +21,7 @@ public class Ex1 {
                 d = Double.parseDouble(s);
                 result.add(d);
             } catch (NumberFormatException e) {
-                throw new IllegalArgumentException(String.format("Not a double: %s",s));
+                throw new IllegalArgumentException(s);
             }
         }
         return result;
