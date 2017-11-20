@@ -7,7 +7,7 @@ public class Ex6 {
         return s.codePoints().allMatch(c -> Character.isAlphabetic(c));
     }
     public static boolean isJavaIdentifier(String s) {
-        if (!s.substring(0,1).codePoints().allMatch(c -> Character.isJavaIdentifierStart(c)))
+        if (!Character.isJavaIdentifierStart(s.codePointAt(0)))
             return false;
         return s.substring(1).codePoints().allMatch(c -> Character.isJavaIdentifierPart(c));
     }
