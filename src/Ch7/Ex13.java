@@ -3,7 +3,8 @@ package Ch7;
 import java.util.LinkedHashMap;
 import java.util.Map;
 /*
-The LinkedHashMap calls the method removeEldestEntry whenever a new element is inserted. Implement a subclass Cache that limits the map to a given size provided in the constructor.
+The LinkedHashMap calls the method removeEldestEntry whenever a new element is inserted. Implement a subclass Cache that
+limits the map to a given size provided in the constructor.
  */
 class Cache extends LinkedHashMap {
     private final int capacity;

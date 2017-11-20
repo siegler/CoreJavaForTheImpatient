@@ -1,6 +1,8 @@
 package Ch3;
 /*
-Implement a class Greeter that implements Runnable and whose run method prints n copies of "Hello, " + target, where n and target are set in the constructor. Construct two instances with different messages and execute them concurrently in two threads.
+Implement a class Greeter that implements Runnable and whose run method prints n copies of "Hello, " + target, where n
+and target are set in the constructor. Construct two instances with different messages and execute them concurrently in
+two threads.
  */
 public class Ex8 {
     public class Greeter implements Runnable {

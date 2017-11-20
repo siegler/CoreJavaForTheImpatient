@@ -3,7 +3,8 @@ package Ch7;
 import java.io.File;
 import java.util.*;
 /*
-Write a program that reads all words in a file and prints out on which line(s) each of them occurred. Use a map from strings to sets.
+Write a program that reads all words in a file and prints out on which line(s) each of them occurred. Use a map from
+strings to sets.
  */
 public class Ex8 {
     public static void main(String[] args) throws Throwable {

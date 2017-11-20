@@ -4,7 +4,8 @@ import java.time.DayOfWeek;
 import java.time.LocalDate;
 
 /*
-Change the calendar printing program so it starts the week on a Sunday. Also make it print a newline at the end (but only one).
+Change the calendar printing program so it starts the week on a Sunday. Also make it print a newline at the end (but
+only one).
  */
 
 public class Ex1 {

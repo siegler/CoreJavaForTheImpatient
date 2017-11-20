@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /*
-Write a call to Arrays.sort that sorts employees by salary, breaking ties by name. Use Comparator.thenComparing. Then do this in reverse order.
+Write a call to Arrays.sort that sorts employees by salary, breaking ties by name. Use Comparator.thenComparing. Then do
+this in reverse order.
  */
 public class Ex14 {
     public static void main(String[] args) {

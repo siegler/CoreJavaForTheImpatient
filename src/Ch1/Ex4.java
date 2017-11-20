@@ -1,6 +1,7 @@
 package Ch1;
 /*
-    Write a program that prints the smallest and largest positive double value. Hint: Look up Math.nextUp in the Java API.
+    Write a program that prints the smallest and largest positive double value. Hint: Look up Math.nextUp in the Java
+    API.
  */
 public class Ex4 {
     public static void main(String[] args) {

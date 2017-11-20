@@ -2,7 +2,8 @@ package Ch1;
 
 import java.util.Scanner;
 /*
-    Using only the conditional operator, write a program that reads three integers and prints the largest. Repeat with Math.max.
+    Using only the conditional operator, write a program that reads three integers and prints the largest. Repeat with
+    Math.max.
  */
 public class Ex3 {
     public static void main(String[] args) {

@@ -4,7 +4,8 @@ import java.util.Arrays;
 import java.util.Random;
 
 /*
-Implement the RandomSequence in Section 3.9.1, “Local Classes,” on p. 122 as a nested class, outside the randomInts method.
+Implement the RandomSequence in Section 3.9.1, “Local Classes,” on p. 122 as a nested class, outside the randomInts
+method.
  */
 public class Ex15 {
     public class LotterySequence implements IntSequence {

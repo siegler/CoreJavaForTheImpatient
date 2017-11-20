@@ -33,7 +33,7 @@ public class Ex12 {
 
         long t3 = System.currentTimeMillis();
         Method m = Ex12.class.getDeclaredMethod("myMin", int.class, int.class);
-        testReflection(1000, m);
+        testReflection(1, m);
         long t4 = System.currentTimeMillis();
         System.out.println("Invocation by reflection: " + (t4-t3) + "ms");
 

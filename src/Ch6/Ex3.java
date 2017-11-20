@@ -2,7 +2,8 @@ package Ch6;
 
 import java.util.ArrayList;
 /*
-Implement a class Ch6.Table<K, V> that manages an array list of Ch6.Entry<K, V> elements. Supply methods to get the value associated with a key, to put a value for a key, and to remove a key.
+Implement a class Ch6.Table<K, V> that manages an array list of Ch6.Entry<K, V> elements. Supply methods to get the
+value associated with a key, to put a value for a key, and to remove a key.
  */
 class Table<K, V> {
     private ArrayList<Entry<K,V>> entries = new ArrayList<>();

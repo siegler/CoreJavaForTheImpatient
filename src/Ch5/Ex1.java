@@ -6,7 +6,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 /*
-Write a method public ArrayList<Double> readValues(String filename) throws ... that reads a file containing floating-point numbers. Throw appropriate exceptions if the file could not be opened or if some of the inputs are not floating-point numbers.
+Write a method public ArrayList<Double> readValues(String filename) throws ... that reads a file containing
+floating-point numbers. Throw appropriate exceptions if the file could not be opened or if some of the inputs are not
+floating-point numbers.
  */
 public class Ex1 {
     public ArrayList<Double> readValues(String filename) throws IOException {

@@ -4,7 +4,9 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 /*
-Using Collections.shuffle, write a program that reads a sentence, shuffles the words, and prints the result. Fix the capitalization of the initial word and the punctuation of the last word (before and after the shuffle). Hint: Don’t shuffle the words.
+Using Collections.shuffle, write a program that reads a sentence, shuffles the words, and prints the result. Fix the
+capitalization of the initial word and the punctuation of the last word (before and after the shuffle). Hint: Don’t
+shuffle the words.
  */
 public class Ex12 {
     public static void main(String[] args) {

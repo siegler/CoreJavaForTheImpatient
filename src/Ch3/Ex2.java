@@ -1,6 +1,7 @@
 package Ch3;
 /*
-Continue with the preceding exercise and provide a method Measurable largest(Measurable[] objects). Use it to find the name of the employee with the largest salary. Why do you need a cast?
+Continue with the preceding exercise and provide a method Measurable largest(Measurable[] objects). Use it to find the
+name of the employee with the largest salary. Why do you need a cast?
  */
 public class Ex2 {
     public static Measurable largest(Measurable[] objects) {

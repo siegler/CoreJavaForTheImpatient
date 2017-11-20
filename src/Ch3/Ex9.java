@@ -5,7 +5,8 @@ Implement methods:
 public static void runTogether(Runnable... tasks)
 public static void runInOrder(Runnable... tasks)
 
-The first method should run each task in a separate thread and then return. The second method should run all methods in the current thread and return when the last one has completed.
+The first method should run each task in a separate thread and then return. The second method should run all methods in
+the current thread and return when the last one has completed.
  */
 public class Ex9 {
     class HelloTask implements Runnable {

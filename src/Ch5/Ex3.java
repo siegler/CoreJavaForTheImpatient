@@ -4,7 +4,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /*
-Write a program that calls the preceding method and prints the result. Catch the exceptions and provide feedback to the user about any error conditions.
+Write a program that calls the preceding method and prints the result. Catch the exceptions and provide feedback to the
+user about any error conditions.
  */
 public class Ex3 {
     public static void main(String[] args) {

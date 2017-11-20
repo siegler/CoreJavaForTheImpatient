@@ -1,7 +1,8 @@
 package Ch4;
 
 /*
-The Class class has six methods that yield a string representation of the type represented by the Class object. How do they differ when applied to arrays, generic types, inner classes, and primitive types?
+The Class class has six methods that yield a string representation of the type represented by the Class object. How do
+they differ when applied to arrays, generic types, inner classes, and primitive types?
  */
 class Box<T> {
     T t;

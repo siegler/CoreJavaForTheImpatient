@@ -4,7 +4,8 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 
 /*
-Write a “universal” toString method that uses reflection to yield a string with all instance variables of an object. Extra credit if you can handle cyclic references.
+Write a “universal” toString method that uses reflection to yield a string with all instance variables of an object.
+Extra credit if you can handle cyclic references.
  */
 class Foo {
     private String s;

@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 /*
-In an array list of strings, make each string uppercase. Do this with (a) an iterator, (b) a loop over the index values, and (c) the replaceAll method.
+In an array list of strings, make each string uppercase. Do this with (a) an iterator, (b) a loop over the index values,
+and (c) the replaceAll method.
  */
 public class Ex2 {
     public static List<String> toUpperWithIterator(List<String> strings) {

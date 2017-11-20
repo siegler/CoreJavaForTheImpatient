@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 /*
-Write a program that reads a two-dimensional array of integers and determines whether it is a magic square (that is, whether the sum of all rows, all columns, and the diagonals is the same). Accept lines of input that you break up into individual integers, and stop when the user enters a blank line. For example, with the input
+Write a program that reads a two-dimensional array of integers and determines whether it is a magic square (that is,
+whether the sum of all rows, all columns, and the diagonals is the same). Accept lines of input that you break up into
+individual integers, and stop when the user enters a blank line. For example, with the input
 16 3 2 13
 3 10 11 8
 9 6 7 12

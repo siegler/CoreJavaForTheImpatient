@@ -2,7 +2,8 @@ package Ch1;
 
 import java.util.Random;
 /*
-Write a program that produces a random string of letters and digits by generating a random long value and printing it in base 36.
+Write a program that produces a random string of letters and digits by generating a random long value and printing it in
+base 36.
  */
 public class Ex10 {
     public static void main(String[] args) {

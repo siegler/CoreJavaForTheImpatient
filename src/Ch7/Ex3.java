@@ -4,7 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
-How do you compute the union, intersection, and difference of two sets, using just the methods of the Set interface and without using loops?
+How do you compute the union, intersection, and difference of two sets, using just the methods of the Set interface and
+without using loops?
  */
 public class Ex3 {
     public static <T> Set<T> union(final Set<T> one, final Set<T> two) {

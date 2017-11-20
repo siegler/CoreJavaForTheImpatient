@@ -13,7 +13,7 @@ the substrings.
  */
 public class Ex5 {
     public static void main(String[] args) {
-        String s = "boat\u03bb";
+        String s = "boat";
         Stream<String> result = IntStream.range(0, s.length()).mapToObj(i -> s.substring(i, s.offsetByCodePoints(i, 1)));
         System.out.println(Arrays.toString(result.toArray()));
     }

@@ -3,7 +3,10 @@ package Ch7;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
+/*
+Do the same without the merge method, (a) by using contains, (b) by using get and a null check, (c) by using
+getOrDefault, (d) by using putIfAbsent.
+ */
 public class Ex9 {
     public static void printMap(Map map) {
         map.forEach((k,v) -> System.out.println(k + ": " + v));

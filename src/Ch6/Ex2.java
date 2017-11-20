@@ -2,7 +2,9 @@ package Ch6;
 
 import java.util.Arrays;
 /*
-Reimplement the Stack<E> class, using an array to hold the elements. If necessary, grow the array in the push method. Provide two solutions, one with an E[] array and one with an Object[] array. Both solutions should compile without warnings. Which do you prefer, and why?
+Reimplement the Stack<E> class, using an array to hold the elements. If necessary, grow the array in the push method.
+Provide two solutions, one with an E[] array and one with an Object[] array. Both solutions should compile without
+warnings. Which do you prefer, and why?
  */
 class Ex2Stack<E> {
     private E[] stack = (E[]) new Object[1];

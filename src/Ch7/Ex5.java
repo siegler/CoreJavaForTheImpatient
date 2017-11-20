@@ -5,7 +5,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.RandomAccess;
 /*
-Implement a method public static void swap(List<?> list, int i, int j) that swaps elements in the usual way when the type of list implements the RandomAccess interface, and that minimizes the cost of visiting the positions at index i and j if it is not.
+Implement a method public static void swap(List<?> list, int i, int j) that swaps elements in the usual way when the
+type of list implements the RandomAccess interface, and that minimizes the cost of visiting the positions at index i and
+j if it is not.
  */
 public class Ex5 {
     public static void swap(List<?> list, int i, int j) {

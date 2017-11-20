@@ -1,7 +1,8 @@
 package Ch3;
 
 /*
-Write a method that takes an array of Runnable instances and returns a Runnable whose run method executes them in order. Return a lambda expression.
+Write a method that takes an array of Runnable instances and returns a Runnable whose run method executes them in order.
+Return a lambda expression.
  */
 public class Ex13 {
     public static Runnable runInOrder(Runnable[] tasks) {
