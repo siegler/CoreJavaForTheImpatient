@@ -1,6 +1,8 @@
 package Ch8;
 /*
-Use the String.codePoints method to implement a method that tests whether a string is a word, consisting only of letters. (Hint: Character.isAlphabetic.) Using the same approach, implement a method that tests whether a string is a valid Java identifier.
+Use the String.codePoints method to implement a method that tests whether a string is a word, consisting only of
+letters. (Hint: Character.isAlphabetic.) Using the same approach, implement a method that tests whether a string is a
+valid Java identifier.
  */
 public class Ex6 {
     public static boolean isWord(String s) {
